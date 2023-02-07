@@ -1,0 +1,58 @@
+
+.App {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+ html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+  background-color: #263238;
+  
+}
+
+main {
+  display: block;
+}
+
+.header {
+  background-color: #263238;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.content {
+  background-color: #263238;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -10px;
+  margin-left: -10px;
+  margin: auto;
+}
+
+.btn-load {
+  background-color: #263238;
+
+}
+
+.btn {
+    color: #263238;
+    background-color: white;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
